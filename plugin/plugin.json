@@ -1,0 +1,21 @@
+{
+  "pluginName": "google翻译",
+  "description": "google翻译",
+  "main": "index.html",
+  "version": "0.0.1",
+  "logo": "./logo.png",
+  "features": [
+    {
+      "code": "google翻译",
+      "explain": "google翻译",
+      "cmds": [
+        {
+          "type": "regex",
+          "label": "google翻译",
+          "match": "/.+?/",
+          "minLength": 1
+        }
+      ]
+    }
+  ]
+}
